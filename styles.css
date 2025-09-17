@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:"Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    line-height: 2;
+}
+
+.main {
+    min-width: 360px;
+    max-width: 720px;
+    border-radius: 20px;
+    background-color:hsl(0, 0%, 100%);
+    padding: 30px;
+}
+
+.image {
+    border-radius: 20px;
+    width: 100%
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 20px;
+}
+  h1, h2 {
+  font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.title {
+    color: black;
+}
+
+.prepBox {
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+}
+
+.prep {
+    color:hsl(332, 51%, 32%);
+}
+
+li {
+    list-style-position: inside;
+}
+
+table {
+    width: 90%;
+}
+.colored {
+        color: hsl(14, 45%, 36%)
+}
+td {
+    padding-left:30px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+li::marker {
+            color: hsl(14, 45%, 36%);
+            font-weight: bold;
+}
+
+hr {
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+.attribution {
+margin-top: 20px;
+}
